@@ -1,0 +1,69 @@
+/* code for mobile */
+
+
+@media only screen and (max-width: 480px) {
+    body{
+        padding: 15px;
+    }
+    main{
+        display: block;
+    }
+
+    .first-section{
+        width: 100%;
+        height: 20%;
+    }
+    .viking-logo{
+        width: 100%;
+    }
+    .viking-logo>.desktop-logo{
+        display: none;
+    }
+    .viking-logo>.mobile-logo{
+        display: block;
+        width: 230px;
+
+    }
+        
+    .icons{
+        display: none;
+    }
+    .second-section{
+        width: 100%;
+    }
+    .second-section>div>img{
+        width: 100%;
+        height: 180px;
+        /* height: 100vh; */
+    }
+    .third-section{
+        width: 100%;
+        
+    }
+    .navBar{
+        margin-left: 10px;
+        width: 50%;
+        font-size: 13px;
+        display: block ;
+        font-family: sans-serif;
+    }
+    .navBar>h4{
+        margin: 20px 0px 0px 15px;
+    }
+    .heading-one{
+        font-size: 40px;  
+       font-family: 'Times New Roman', Times, serif;
+    
+    }
+    .para-one{
+        font-size: 14px;
+        margin: 25px ;
+        font-family: sans-serif;
+    
+    }
+    footer{
+        margin-left: 30px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
